@@ -48,8 +48,6 @@ const getRandomQuote =()=>{
 
 /** printQuote function **/
 const printQuote =()=>{
-    getRandomQuote(); //calls the getRandomQuote function
-
     //create a variable to store a random quote object from the getRandomQuote function
     let randomQuote = getRandomQuote();
     console.log(randomQuote); //logs out the random quote object
